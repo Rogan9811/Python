@@ -14,7 +14,7 @@ if len(num) != 6:
 else:
     for i in range(len(num)):
         if i < 3:
-            sum1 += int(num[i])
+            sum1 += int(num[i]) 
         else:
             sum2 += int(num[i])
         i += 1
