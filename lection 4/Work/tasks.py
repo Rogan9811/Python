@@ -55,4 +55,14 @@
 #  n = int(input())
 #  if max_number < n:
 #  n = max_number
-print(n)
+# print(n)
+
+#tassk 332
+
+def fib(n):
+    if n in [0, 1]:
+        return 1
+    else:
+        return fib(n-2) + fib(n-1)
+
+print(fib(int(input("Enter your num: "))))
