@@ -13,7 +13,7 @@ vowels = 'аоуэыяеёюи'
 
 rap = input().split()
 
-res = [sum([True for j in word if j.lower() in vowels]) for word in rap]
+res = [sum([1 for j in word if j.lower() in vowels]) for word in rap]
 
 print(res)      
 
